@@ -1,0 +1,24 @@
+{
+  "name": "discord-music-receiver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/voice": "^0.8.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "ffmpeg-stream": "^0.7.0",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "socket.io": "^4.4.1",
+    "tweetnacl": "^1.0.3",
+    "youtube-dl-exec": "^2.0.7"
+  }
+}
