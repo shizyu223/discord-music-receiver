@@ -31,7 +31,7 @@ if(!process.env.DISCORD_BOT_TOKEN){
 (async () =>{
     const plugin = await import(`./receiver.js`);
     // plugin.receiver(client);
-    plugin.default(client);
+    plugin.receiver(client);
     console.log(`MusicBot successfully loaded.`);
 })();
 
